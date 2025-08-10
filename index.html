@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UAP CSE Alumni Connect</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    .hero-gradient {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .card-hover {
+      transition: all 0.3s ease;
+    }
+    .card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex items-center">
+          <div class="flex-shrink-0 flex items-center">
+            <div class="w-10 h-10 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
+              <span class="text-white font-bold text-lg">UAP</span>
+            </div>
+            <span class="ml-3 text-xl font-bold text-gray-800">CSE Alumni Connect</span>
+          </div>
+        </div>
+        
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="text-purple-600 font-medium">Home</a>
+          <a href="alumni-directory.html" class="text-gray-600 hover:text-purple-600 transition-colors">Alumni Directory</a>
+          <a href="job-opportunities.html" class="text-gray-600 hover:text-purple-600 transition-colors">Jobs</a>
+          <a href="events.html" class="text-gray-600 hover:text-purple-600 transition-colors">Events</a>
+          <a href="community.html" class="text-gray-600 hover:text-purple-600 transition-colors">Community</a>
+          <a href="mentorship.html" class="text-gray-600 hover:text-purple-600 transition-colors">Mentorship</a>
+          <a href="resources.html" class="text-gray-600 hover:text-purple-600 transition-colors">Resources</a>
+          <a href="login.html" class="bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition-colors">Login</a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="md:hidden flex items-center">
+          <button class="text-gray-600 hover:text-purple-600">
+            <i class="fas fa-bars text-xl"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-gradient text-white py-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-5xl font-bold mb-6">Welcome to UAP CSE Alumni Connect</h1>
+      <p class="text-xl mb-8 max-w-3xl mx-auto">
+        Building a strong community connecting current students, faculty, and alumni. 
+        Network, share opportunities, and grow together.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="login.html" class="bg-white text-purple-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Join Our Community
+        </a>
+        <a href="alumni-directory.html" class="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-purple-600 transition-colors">
+          Browse Alumni
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">What We Offer</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Alumni Directory -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-users text-purple-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Alumni Directory</h3>
+          <p class="text-gray-600 mb-4">
+            Connect with fellow alumni by batch, company, or designation. View profiles with LinkedIn, GitHub, and more.
+          </p>
+          <a href="alumni-directory.html" class="text-purple-600 font-medium hover:text-purple-700">
+            Browse Directory →
+          </a>
+        </div>
+
+        <!-- Job Opportunities -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-briefcase text-blue-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Job Opportunities</h3>
+          <p class="text-gray-600 mb-4">
+            Find and post job opportunities. Apply directly through the platform with application tracking.
+          </p>
+          <a href="job-opportunities.html" class="text-blue-600 font-medium hover:text-blue-700">
+            View Jobs →
+          </a>
+        </div>
+
+        <!-- Events -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-calendar-alt text-green-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Upcoming Events</h3>
+          <p class="text-gray-600 mb-4">
+            Stay updated with department events, workshops, and networking opportunities.
+          </p>
+          <a href="events.html" class="text-green-600 font-medium hover:text-green-700">
+            View Events →
+          </a>
+        </div>
+
+        <!-- Community -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-comments text-yellow-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Community Forum</h3>
+          <p class="text-gray-600 mb-4">
+            Engage in discussions, share experiences, and connect with the community.
+          </p>
+          <a href="community.html" class="text-yellow-600 font-medium hover:text-yellow-700">
+            Join Discussion →
+          </a>
+        </div>
+
+        <!-- Mentorship -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-handshake text-red-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Mentorship Program</h3>
+          <p class="text-gray-600 mb-4">
+            Connect alumni mentors with current students for guidance and career advice.
+          </p>
+          <a href="mentorship.html" class="text-red-600 font-medium hover:text-red-700">
+            Find Mentor →
+          </a>
+        </div>
+
+        <!-- Resources -->
+        <div class="bg-white rounded-xl shadow-lg p-6 card-hover">
+          <div class="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
+            <i class="fas fa-book text-indigo-600 text-xl"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-3">Resource Sharing</h3>
+          <p class="text-gray-600 mb-4">
+            Access and share academic resources, study materials, and industry insights.
+          </p>
+          <a href="resources.html" class="text-indigo-600 font-medium hover:text-indigo-700">
+            Browse Resources →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="bg-gray-100 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div>
+          <div class="text-3xl font-bold text-purple-600 mb-2">500+</div>
+          <div class="text-gray-600">Alumni Members</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-blue-600 mb-2">50+</div>
+          <div class="text-gray-600">Job Postings</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-green-600 mb-2">25+</div>
+          <div class="text-gray-600">Events This Year</div>
+        </div>
+        <div>
+          <div class="text-3xl font-bold text-red-600 mb-2">100+</div>
+          <div class="text-gray-600">Mentorship Matches</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Activity -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Recent Activity</h2>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Recent Job -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+              <i class="fas fa-briefcase text-blue-600"></i>
+            </div>
+            <div class="ml-3">
+              <h4 class="font-semibold text-gray-800">New Job Posted</h4>
+              <p class="text-sm text-gray-600">Software Engineer at Google</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mb-3">
+            Senior Software Engineer position available at Google. Apply now!
+          </p>
+          <a href="job-opportunities.html" class="text-purple-600 text-sm hover:text-purple-700">
+            View Details →
+          </a>
+        </div>
+
+        <!-- Recent Event -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+              <i class="fas fa-calendar text-green-600"></i>
+            </div>
+            <div class="ml-3">
+              <h4 class="font-semibold text-gray-800">New Event</h4>
+              <p class="text-sm text-gray-600">AI/ML Workshop - Dec 15</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mb-3">
+            Join us for an intensive workshop on Machine Learning fundamentals.
+          </p>
+          <a href="events.html" class="text-purple-600 text-sm hover:text-purple-700">
+            Register Now →
+          </a>
+        </div>
+
+        <!-- Recent Discussion -->
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div class="flex items-center mb-4">
+            <div class="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+              <i class="fas fa-comments text-yellow-600"></i>
+            </div>
+            <div class="ml-3">
+              <h4 class="font-semibold text-gray-800">New Discussion</h4>
+              <p class="text-sm text-gray-600">Career Transition Tips</p>
+            </div>
+          </div>
+          <p class="text-gray-600 text-sm mb-3">
+            Share your experience transitioning from software to product management.
+          </p>
+          <a href="community.html" class="text-purple-600 text-sm hover:text-purple-700">
+            Join Discussion →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section class="bg-gradient-to-r from-purple-600 to-blue-600 text-white py-16">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold mb-4">Stay Connected</h2>
+      <p class="text-xl mb-8">
+        Subscribe to our newsletter for the latest updates, job opportunities, and events.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
+        <input type="email" placeholder="Enter your email" class="flex-1 px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-white">
+        <button class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+          Subscribe
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <div class="flex items-center mb-4">
+            <div class="w-8 h-8 bg-gradient-to-r from-purple-500 to-blue-500 rounded-lg flex items-center justify-center">
+              <span class="text-white font-bold text-sm">UAP</span>
+            </div>
+            <span class="ml-2 font-bold">CSE Alumni Connect</span>
+          </div>
+          <p class="text-gray-400">
+            Building a strong community connecting current students, faculty, and alumni.
+          </p>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-4">Quick Links</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="alumni-directory.html" class="hover:text-white transition-colors">Alumni Directory</a></li>
+            <li><a href="job-opportunities.html" class="hover:text-white transition-colors">Job Opportunities</a></li>
+            <li><a href="events.html" class="hover:text-white transition-colors">Events</a></li>
+            <li><a href="community.html" class="hover:text-white transition-colors">Community</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-4">Resources</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="mentorship.html" class="hover:text-white transition-colors">Mentorship</a></li>
+            <li><a href="resources.html" class="hover:text-white transition-colors">Resource Library</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Newsletter</a></li>
+            <li><a href="#" class="hover:text-white transition-colors">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div>
+          <h4 class="font-semibold mb-4">Connect</h4>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-facebook text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-linkedin text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a href="#" class="text-gray-400 hover:text-white transition-colors">
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+        <p>&copy; 2024 UAP CSE Alumni Connect. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+      const mobileMenuButton = document.querySelector('.md\\:hidden button');
+      const mobileMenu = document.querySelector('.md\\:hidden');
+      
+      mobileMenuButton.addEventListener('click', function() {
+        // Add mobile menu functionality here
+        console.log('Mobile menu clicked');
+      });
+    });
+
+    // Newsletter subscription
+    document.querySelector('button').addEventListener('click', function() {
+      const email = document.querySelector('input[type="email"]').value;
+      if (email) {
+        alert('Thank you for subscribing to our newsletter!');
+        document.querySelector('input[type="email"]').value = '';
+      } else {
+        alert('Please enter a valid email address.');
+      }
+    });
+  </script>
+</body>
+</html> 
