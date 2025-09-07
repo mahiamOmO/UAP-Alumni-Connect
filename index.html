@@ -16,6 +16,17 @@
     .card-hover:hover {
       transform: translateY(-5px);
       box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
+    }
+
+    /* Add for recent activity cards */
+    .recent-card-hover {
+      transition: all 0.3s ease;
+    }
+    .recent-card-hover:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      background: linear-gradient(135deg, #a18cd1 0%, #fbc2eb 100%);
     }
   </style>
 </head>
@@ -55,7 +66,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero-gradient text-white py-20">
+  <section class="hero-gradient text-white py-20 bg-[url('pictures/background.jpg')] bg-cover bg-center bg-no-repeat">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
       <h1 class="text-5xl font-bold mb-6">Welcome to UAP CSE Alumni Connect</h1>
       <p class="text-xl mb-8 max-w-3xl mx-auto">
@@ -197,7 +208,7 @@
       
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Recent Job -->
-        <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="bg-white rounded-lg shadow-md p-6 recent-card-hover">
           <div class="flex items-center mb-4">
             <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
               <i class="fas fa-briefcase text-blue-600"></i>
@@ -216,7 +227,7 @@
         </div>
 
         <!-- Recent Event -->
-        <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="bg-white rounded-lg shadow-md p-6 recent-card-hover">
           <div class="flex items-center mb-4">
             <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
               <i class="fas fa-calendar text-green-600"></i>
@@ -235,7 +246,7 @@
         </div>
 
         <!-- Recent Discussion -->
-        <div class="bg-white rounded-lg shadow-md p-6">
+        <div class="bg-white rounded-lg shadow-md p-6 recent-card-hover">
           <div class="flex items-center mb-4">
             <div class="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
               <i class="fas fa-comments text-yellow-600"></i>
@@ -328,7 +339,7 @@
       </div>
       
       <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; 2024 UAP CSE Alumni Connect. All rights reserved.</p>
+        <p>&copy; 2025 UAP CSE Alumni Connect. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -357,4 +368,4 @@
     });
   </script>
 </body>
-</html> 
+</html>
