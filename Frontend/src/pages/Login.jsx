@@ -38,7 +38,7 @@ const Login = () => {
         );
         alert("Login successful!");
         localStorage.setItem("isAuthenticated", "true");
-        navigate("/"); // লগইন সফল হলে Home page-এ যাবে
+        navigate("/"); 
       } catch (error) {
         alert("Login failed: " + error.message);
       }
@@ -74,17 +74,6 @@ const Login = () => {
   const toggleMode = (mode) => {
     setIsLogin(mode === "signin");
   };
-
-  return (
-    <div
-      className="min-h-screen flex items-center justify-center p-4"
-      style={{
-        backgroundImage:
-          "url('/pictures/background.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
