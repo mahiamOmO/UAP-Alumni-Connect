@@ -79,7 +79,10 @@ const Login = () => {
     <div
       className="min-h-screen flex items-center justify-center p-4"
       style={{
-        
+        backgroundImage:
+          "url('/pictures/background.jpg')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">

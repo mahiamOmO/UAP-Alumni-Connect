@@ -12,6 +12,7 @@ import Login from './pages/Login'
 import Footer from './components/Footer'
 import PrivateRoute from './components/PrivateRoute'
 
+
 function App() {
   return (
     <Router>
