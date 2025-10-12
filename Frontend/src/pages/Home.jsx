@@ -9,7 +9,7 @@ const Home = () => {
       <section 
         className="hero-gradient text-white py-20 bg-center bg-no-repeat relative"
         style={{
-          backgroundImage: "url('/pictures/background.jpg')",
+          backgroundImage: "url('public/background.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center center"
         }}

@@ -74,6 +74,14 @@ const Login = () => {
   const toggleMode = (mode) => {
     setIsLogin(mode === "signin");
   };
+
+  return (
+    <div
+      className="min-h-screen flex items-center justify-center p-4"
+      style={{
+        
+      }}
+    >
       <div className="bg-white rounded-2xl shadow-2xl p-8 w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
