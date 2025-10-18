@@ -7,7 +7,7 @@ const Events = () => {
     {
       id: 1,
       title: "AI/ML Workshop",
-      date: "2024-12-15",
+      date: "2025-12-15",
       time: "10:00 AM - 4:00 PM",
       location: "UAP Campus, Room 101",
       type: "Workshop",
@@ -20,7 +20,7 @@ const Events = () => {
     {
       id: 2,
       title: "Alumni Networking Meetup",
-      date: "2024-12-20",
+      date: "2025-12-20",
       time: "6:00 PM - 9:00 PM",
       location: "Grand Hotel, Dhaka",
       type: "Networking",
@@ -33,12 +33,12 @@ const Events = () => {
     {
       id: 3,
       title: "Career Development Seminar",
-      date: "2024-12-25",
+      date: "2025-12-25",
       time: "2:00 PM - 5:00 PM",
       location: "Online (Zoom)",
       type: "Seminar",
       description: "Learn about career advancement strategies, interview preparation, and professional development from industry experts.",
-      speaker: "John Doe (Google)",
+      speaker: "Ab.Karim (Google)",
       capacity: 100,
       registered: 78,
       image: "/api/placeholder/400/200"

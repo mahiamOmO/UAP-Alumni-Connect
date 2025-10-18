@@ -4,28 +4,40 @@ const Mentorship = () => {
   const [activeTab, setActiveTab] = useState('find-mentor')
 
   const mentors = [
-    {
-      id: 1,
-      name: "John Doe",
-      company: "Google",
-      position: "Senior Software Engineer",
-      batch: "2018",
-      expertise: ["Software Engineering", "Career Growth", "Interview Prep"],
-      availability: "Available",
-      rating: 4.9,
-      mentees: 15
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      company: "Microsoft",
-      position: "Product Manager",
-      batch: "2019",
-      expertise: ["Product Management", "Leadership", "Strategy"],
-      availability: "Available",
-      rating: 4.8,
-      mentees: 12
-    }
+ 
+  {
+    id: 1,
+    name: "Sadia Akter",
+    company: "TechWave IT Solutions",
+    position: "Frontend Developer",
+    batch: "2020",
+    expertise: ["React.js", "UI/UX", "Career Coaching"],
+    availability: "Busy",
+    rating: 4.7,
+    mentees: 8
+  },
+  {
+    id: 2,
+    name: "Rafiqul Islam",
+    company: "NextGen Apps BD",
+    position: "Mobile App Developer",
+    batch: "2017",
+    expertise: ["Flutter", "Android/iOS Development", "Project Mentoring"],
+    availability: "Available",
+    rating: 4.9,
+    mentees: 20
+  },
+  {
+    id: 3,
+    name: "Farzana Rahman",
+    company: "Inspire IT Solutions",
+    position: "Software Engineer",
+    batch: "2016",
+    expertise: ["Python/Django", "Data Structures", "Interview Prep"],
+    availability: "Busy",
+    rating: 4.6,
+    mentees: 10
+  }
   ]
 
   return (

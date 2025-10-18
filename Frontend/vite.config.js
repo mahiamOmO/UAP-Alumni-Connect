@@ -7,4 +7,9 @@ export default defineConfig({
   build: {
     outDir: 'dist', 
   },
+  server: {
+    proxy: {
+      '/profiles': 'http://localhost:4000', 
+    },
+  },
 })

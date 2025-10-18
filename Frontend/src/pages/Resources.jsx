@@ -4,50 +4,83 @@ const Resources = () => {
   const [activeCategory, setActiveCategory] = useState('all')
 
   const resources = [
-    {
-      id: 1,
-      title: "Data Structures and Algorithms Guide",
-      category: "Study Materials",
-      type: "PDF",
-      size: "2.5 MB",
-      uploadedBy: "Dr. Sarah Ahmed",
-      uploadDate: "2024-01-10",
-      downloads: 156,
-      description: "Comprehensive guide covering all major data structures and algorithms with examples and practice problems."
-    },
-    {
-      id: 2,
-      title: "Machine Learning Fundamentals",
-      category: "Study Materials",
-      type: "Video",
-      size: "1.2 GB",
-      uploadedBy: "John Doe (2018)",
-      uploadDate: "2024-01-08",
-      downloads: 89,
-      description: "Complete video series on machine learning concepts, from basics to advanced topics."
-    },
-    {
-      id: 3,
-      title: "Industry Insights 2024",
-      category: "Industry Reports",
-      type: "PDF",
-      size: "5.1 MB",
-      uploadedBy: "Jane Smith (2019)",
-      uploadDate: "2024-01-05",
-      downloads: 234,
-      description: "Latest trends and insights in the technology industry, compiled by industry experts."
-    },
-    {
-      id: 4,
-      title: "Interview Preparation Kit",
-      category: "Career Resources",
-      type: "ZIP",
-      size: "15.3 MB",
-      uploadedBy: "Ahmed Hassan (2020)",
-      uploadDate: "2024-01-03",
-      downloads: 312,
-      description: "Complete collection of interview questions, coding challenges, and preparation materials."
-    }
+     {
+    id: 1,
+    title: "Data Structures and Algorithms Guide",
+    category: "Study Materials",
+    type: "PDF",
+    size: "2.5 MB",
+    uploadedBy: "Dr. Sarah Ahmed",
+    uploadDate: "2024-01-10",
+    downloads: 156,
+    description: "Comprehensive guide covering all major data structures and algorithms with examples and practice problems."
+  },
+  {
+    id: 2,
+    title: "Introduction to Python Programming",
+    category: "Study Materials",
+    type: "PDF",
+    size: "3 MB",
+    uploadedBy: "Mr. Kamrul Hasan",
+    uploadDate: "2024-03-05",
+    downloads: 200,
+    description: "Beginner-friendly PDF covering basics of Python programming with examples."
+  },
+  {
+    id: 3,
+    title: "React.js Crash Course",
+    category: "Video Tutorials",
+    type: "MP4",
+    size: "250 MB",
+    uploadedBy: "Ms. Farzana Rahman",
+    uploadDate: "2024-06-12",
+    downloads: 180,
+    description: "Step-by-step React.js tutorial for building modern web applications."
+  },
+  {
+    id: 4,
+    title: "Linux Command Line Basics",
+    category: "Study Materials",
+    type: "PDF",
+    size: "1.8 MB",
+    uploadedBy: "Dr. Imran Hossain",
+    uploadDate: "2024-02-20",
+    downloads: 120,
+    description: "Essential Linux commands and shell scripting tips for beginners."
+  },
+  {
+    id: 5,
+    title: "Git & GitHub Complete Guide",
+    category: "Video Tutorials",
+    type: "MP4",
+    size: "300 MB",
+    uploadedBy: "Mr. Rakibul Islam",
+    uploadDate: "2024-04-15",
+    downloads: 220,
+    description: "Comprehensive tutorial on Git version control and GitHub workflows."
+  },
+  {
+    id: 6,
+    title: "Database Management with MySQL",
+    category: "Study Materials",
+    type: "PDF",
+    size: "4 MB",
+    uploadedBy: "Ms. Sadia Akter",
+    uploadDate: "2024-05-22",
+    downloads: 145,
+    description: "Covers MySQL basics, queries, joins, and database design principles."
+  },
+  {
+    id: 7,
+    title: "VS Code Productivity Tools",
+    category: "Tools & Software",
+    type: "ZIP",
+    size: "15 MB",
+    uploadedBy: "Mr. Shahriar Khan",
+    uploadDate: "2024-07-10",
+    downloads: 90,
+    description: "Collection of VS Code extensions and snippets to boost coding productivity."
+  }
   ]
 
   const categories = ["All", "Study Materials", "Industry Reports", "Career Resources", "Software Tools"]

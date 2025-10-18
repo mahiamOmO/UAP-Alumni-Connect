@@ -47,7 +47,7 @@ const AlumniDirectory = () => {
     },
     {
       id: 4,
-      name: "Sumaya Jahan Othye",
+      name: "Sajmin Khanam Payel",
       batch: "45",
       company: "UX/UI designer",
       position: "Senior Software iMS System technology.",
@@ -68,6 +68,90 @@ const AlumniDirectory = () => {
       github: "https://github.com/Plabon-Dutta", 
       research_papers: "https://scholar.google.com/citations?user=Rt2lAwsAAAAJ&hl=en",
       skills: ["React", "Node.js", "Python",]
+    },
+    {
+      id: 6,
+      name: "Rahat Bin Mobarok ",
+      batch: "46",
+      company: " AristoPharma Ltd ",
+      position: "IT Executive",
+      location: "Bangladesh",
+      linkedin: "https://www.linkedin.com/in/rahat-bin-mobarok-57845b291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      github: "XX", 
+      research_papers: "NO",
+      skills: ["Python", "Machine Learning"]
+    },
+    {
+      id: 7,
+      name: "Hriday Sarkar",
+      batch: "45",
+      company: "eChithi",
+      position: "Business Development Teamlead",
+      location: "Bangladesh",
+      linkedin: "www.linkedin.com/in/hriday-sarkar",
+      github: "https://github.com/Hriday59", 
+      research_papers: "NO",
+      skills: ["Python", "Machine Learning"]
+    },
+    {
+      id: 8,
+      name: "Mirza Md Shakil",
+      batch: "44",
+      company: "NO",
+      position: "Senior Software iMS System technology.",
+      location: "Sweden",
+      linkedin: "NO",
+      github: "XX", 
+      research_papers: "yes, 3 journals, 2 conferences. But cannot provide the links now cause I do not have it with me right now. ",
+      skills: ["React", "Node.js", "Python", "Machine Learning"]
+    },
+    {
+      id: 9,
+      name: "Shanjidul Huda Shozon",
+      batch: "46",
+      company: "Summit Communication Ltd",
+      position: "Software Engineer ",
+      location: "Bangladesh",
+      linkedin: "https://www.linkedin.com/in/shanjidul-shozonn",
+      github: "XX", 
+      research_papers: "None",
+      skills: ["React", "Node.js", "Python", "Machine Learning"]
+    },
+    {
+      id: 10,
+      name: "Minjamin Ahmmed Sheefat",
+      batch: " ",
+      company: "Cloud Vortex Innovation",
+      position: "Software Engineer",
+      location: "Bangladesh",
+      linkedin: "https://www.linkedin.com/in/minjamin-ahmmed-sheefat/",
+      github: "https://github.com/minjamin-ahmmed", 
+      research_papers: "NO",
+      skills: ["React", "Node.js", "Python", "Machine Learning"]
+    },
+    {
+      id: 11,
+      name: "Shariar Nasim Neon",
+      batch: "49",
+      company: "N/A",
+      position: "N/A",
+      location: "Bangladesh",
+      linkedin: "https://www.linkedin.com/in/shariar-nasim-neon-032850315/",
+      github: "https://github.com/Shariarneon", 
+      research_papers: "NO",
+      skills: ["React", "Node.js", "Python", "Machine Learning"]
+    },
+    {
+      id: 12,
+      name: "K.M. Arif Uz Zaman",
+      batch: "45",
+      company: "No",
+      position: "Assistant SQA Engineer",
+      location: "Bangladesh",
+      linkedin: "https://www.linkedin.com/in/k-m-arif-uz-zaman",
+      github: "https://github.com/Arif-Uz-Zaman", 
+      research_papers: "NO",
+      skills: ["React", "Node.js", "Python", "Machine Learning"]
     }
   ]
 
